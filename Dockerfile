@@ -7,6 +7,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common
 	python3-pip \
 	llvm \
 	clang-3.5 \
+	libboost1.55-all-dev \
 	doxygen \
 	cmake \
 	lsb-core \
