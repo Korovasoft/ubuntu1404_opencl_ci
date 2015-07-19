@@ -10,6 +10,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common
 	doxygen \
 	cmake \
 	lsb-core \
+	wget \
 	&& rm -rf /var/lib/apt/lists/*
 
 # OpenCL:
